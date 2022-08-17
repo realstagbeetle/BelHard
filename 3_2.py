@@ -1,0 +1,5 @@
+a = float(input('Please, enter first digit: '))
+b = float(input('Now, enter second digit: '))
+c = float(input('Finally, enter third digit: '))
+d = round(((a + b + c)/3), 3)
+print(d)
