@@ -1,0 +1,6 @@
+name = input('Enter your name: ')
+age = float(input('Enter your age: '))
+city = input('Which city are you from: ')
+print(f'Hi, my name is {name}, I\'m {age} year\'s old! I\'m from {city}.')
+print('Hi, my name is {}, I\'m {} year\'s old! I\'m from {}.'.format(name, age, city))
+print('Hi, my name is %s, I\'m %d year\'s old! I\'m from %s.' % (name, age, city))
